@@ -1,0 +1,22 @@
+.dropdowngroup{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+
+
+.drow{
+    width:200px ;
+    height: 35px;   
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+

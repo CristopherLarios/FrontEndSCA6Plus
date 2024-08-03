@@ -1,0 +1,271 @@
+.App {
+  background-color: #EEEEEE;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App .VerDetalle {
+  background-color: transparent;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px 0px rgba(77, 77, 77, 0.6);
+}
+
+.App .VerDetalle:hover {
+  background-color: #D11B6F;
+  color: white;
+  border-color: #D11B6F;
+}
+
+
+/**
+?Seccion de estilos pagina Login
+*/
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.LoginForm {
+  background-color: #EEEEEE;
+  backdrop-filter: blur(3px);
+  padding: 0px 16px 16px 16px;
+  border-radius: 16px;
+  width: 17.5em;
+  box-shadow: 0px 0px 28px 10px rgba(0, 0, 0, 0.6);
+}
+
+.logoAlcaldia {
+  margin: 1.5em 0em;
+}
+
+.enlaceOl {
+  color: #1E73BE;
+  font-size: 13px;
+  margin: 10em;
+}
+
+
+
+/**
+?Seccion de estilos para la pagina de Ingreso de combustible
+*/
+.MainSCAIngresoCombustible {
+  width: 100vw;
+  height: 100vh;
+  background-color: #EEEEEE;
+  text-align: center;
+}
+
+
+.MainSCAIngresoCombustible .Header {
+  margin-bottom: 30px;
+}
+
+.MainSCAIngresoCombustible .InputGroup {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  border-radius: 16px;
+  box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.6);
+  width: 22em;
+  height: 29em;
+}
+
+.MainSCAIngresoCombustible .InputGroup .RadioButtonGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainSCAIngresoCombustible .InputGroup .RadioButtonGroup .RadioGroupprod .Radio2 {
+  margin-left: 15px;
+}
+
+.MainSCAIngresoCombustible .InputGroup .campoTexto {
+  margin-left: 0px;
+}
+
+
+/**
+?Seccion de estilos pagina Gestion de Usuarios
+*/
+
+.MainSCAGestionUsuarios {
+  width: 100vw;
+  height: 100vh;
+  background-color: #EEEEEE;
+
+}
+
+.MainSCAGestionUsuarios .InputGroupGestionUsuario {
+  width: 35em;
+  height: 11em;
+  column-count: 2;
+  column-gap: 5px;
+  text-align: center;
+  margin: 0em auto 2em auto;
+  padding-top: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+/**
+?Seccion de estilos pagina Asignar Presupuesto UA
+*/
+.MainSCAPresupuestoUnidadAdministrativa {
+  width: 100vw;
+  height: 100vh;
+  background-color: #EEEEEE;
+}
+
+.MainSCAPresupuestoUnidadAdministrativa .DropMenu .dropmenuUA {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.MainSCAPresupuestoUnidadAdministrativa .DropMenu .dropmenuUA .drow {
+  width: 550px;
+  height: 35px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.MainSCAPresupuestoUnidadAdministrativa .DropMenu .dropmenumes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+.MainSCAPresupuestoUnidadAdministrativa .DropMenu .dropmenumes .drow {
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.MainSCAPresupuestoUnidadAdministrativa .InputGroupAsignarPresupuesto {
+  display: flex;
+  align-items: center;
+  margin: 1.5em 10em 3.5em 7em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 60px;
+  width: 78em;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.MainSCAPresupuestoUnidadAdministrativa .InputGroupAsignarPresupuesto .CampoPresup {
+  margin-right: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+
+.MainSCAPresupuestoUnidadAdministrativa .InputGroupAsignarPresupuesto .DropMenu {
+  display: flex;
+  padding-top: 1em;
+}
+
+/**
+?Seccion de estilos pagina Registro Despacho Lubricos
+*/
+
+
+/* .MainSCARegistroDespachoLubricos {
+
+} */
+
+#position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0.5em 16em 0em -2em;
+}
+
+.MainSCARegistroDespachoLubricos .intputgroup1 {
+  display: flex;
+  height: 13em;
+  width: 22em;
+  margin-top: 1.5em;
+  margin-left: 0.5em;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.MainSCARegistroDespachoLubricos .intputgroup1 .CampoTexto {
+  margin-top: 20px;
+}
+
+.MainSCARegistroDespachoLubricos .intputgroup1 .botonInicio {
+  align-items: center;
+  justify-content: center;
+  margin-left: 7em;
+}
+
+.MainSCARegistroDespachoLubricos .intputgroup2 {
+  display: grid;
+  height: 19em;
+  width: 22em;
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-left: 0.5em;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.4);
+}
+
+.MainSCARegistroDespachoLubricos .intputgroup2 .CampoTexto {
+  margin-top: 20px;
+}
+
+.MainSCARegistroDespachoLubricos .intputgroup1 .CampoTexto .menu {
+  margin-right: 50px;
+}
+
+.MainSCARegistroDespachoLubricos .intputgroup2 .CampoTexto .menu {
+  margin-right: 8em;
+}
+
+.MainSCARegistroDespachoLubricos .intputgroup2 .CampoTexto .botonInicio {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.MainSCARegistroDespachoLubricos .intputgroup2 .CampoTexto .inputgrouplabel {
+  margin-left: 10px;
+}
+
+
+.MainSCARegistroDespachoLubricos .intputPlaca {
+  display: flex;
+}
+
+.icodelete {
+  color: red;
+}
+
+/**
+?Seccion de estilos pagina Reportes
+*/
+
+/* Reportes */
+.dropmenu{
+width:400px ;
+}
+
+.dropmenu .drow{
+  width:400px ;
+}

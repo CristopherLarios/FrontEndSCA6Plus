@@ -1,0 +1,20 @@
+.circle .iconbusqueda-f {
+    color: red;
+    font-size: 25px;
+    margin-left: 14px;
+    margin-top: 5px;
+}
+
+.circle .iconbusqueda-tr {
+    color: green;
+    font-size: 25px;
+    margin-left: 14px;
+    margin-top: 5px;
+}
+
+.circle .iconbusqueda-t {
+    color: transparent;
+    font-size: 25px;
+    margin-left: 14px;
+    margin-top: 5px;
+}

@@ -1,0 +1,36 @@
+.campoTexto {
+  border-color: #D11B6F;
+  font-size: 15px;
+  background-color: #EEEEEE;
+  border: 3px solid #D11B6F;
+  border-radius: 13px;
+  width:260px;
+  margin-left: 10px;
+}
+
+.inputGroup label {
+  position: absolute;
+  left: 0;
+  padding: 0.5em;
+  margin-left: 1.5em;
+  pointer-events: none;
+  transition: all 0.1s ease-out;
+  color: rgb(100, 100, 100);
+  /* opacity: 0.5; */
+  visibility: hidden;
+}
+
+.inputGroup :is(input:focus)~label, .inputGroup .is-fill{
+  transform: translateY(-60%) scale(.9);
+  margin: 0em;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  opacity: 1;
+  background-color: #EEEEEE;
+  color: #D11B6F;
+  visibility:visible ;
+}
+
+ .campoTexto:focus{
+  border-color: #D11B6F;
+}

@@ -1,0 +1,36 @@
+
+.InputGroupCards{
+   display: flex;
+   justify-content: center;
+   padding: 1em 1em;
+   margin-bottom: 1.3em;
+}
+
+
+.InputGroupCards .cards {
+    background-color: #FFFFFF;
+    color: black;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    border: 1px solid;
+    width: 125px;
+    height: 165px;
+    margin: 7px;
+}
+
+.cardsico {
+    font-size: 50px;
+    color: #1BB55C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.InputGroupCards .cards:hover  {
+    background-color: #D11B6F;
+    color: #FFFFFF;
+}
+ .cards:hover .cardsico {
+    color: #FFFFFF;
+}

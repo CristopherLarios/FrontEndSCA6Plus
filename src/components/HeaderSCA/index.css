@@ -1,0 +1,30 @@
+.headerSCA {
+  display: flex;
+  justify-content: flex-start;
+  background: linear-gradient(
+    195deg,
+    #d11b6f 0%,
+    #d11b6f 27%,
+    #d11b6f 28%,
+    #1e73be 29%,
+    #1e73be 100%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#D11B6F', endColorstr='#1e73be', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+h1,
+h2 {
+  padding-top: 0.1em;
+  color: #f9ea1f;
+  display: flex;
+  justify-content: center;
+}
+.column {
+  margin: 0em 2.7em;
+}
+
+.logoAlcaldiaHeader {
+  width: 80% !important;
+}

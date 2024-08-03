@@ -1,0 +1,19 @@
+.botonInicio{
+  border-radius: 4em;
+  background-color: #6CBEED;
+  width: 55% !important;
+  height: 50px !important;
+}
+
+.botonInicio_Modificar{
+  border-radius: 4em;
+  background-color: #00bd06;
+  width: 55% !important;
+  height: 50px !important; 
+}
+
+.spanInicio{
+  font-weight: 400;
+  font-size: 18px;
+  color: #EEEEEE;
+}
